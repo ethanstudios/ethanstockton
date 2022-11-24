@@ -259,6 +259,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 function getPlayerNumber(xhttp) {
 	let response = xhttp.response;
 	let VersionPlayerCount;
+	let VersionServerCount;
 	let GameVersion = "p592";
 	
 	console.log(response);
@@ -268,7 +269,10 @@ function getPlayerNumber(xhttp) {
 
 				var currenttype = "";
                 
+				
+				
 				for (i = 0; i < lines.length; i++) {
+				
 				
 				
 					if (lines[i] == "###versions")
@@ -377,6 +381,12 @@ console.log(LoadedLine);
 					
 				}
 				
+				
+				
+				if(VersionServerCount == null){
+				
+					document.getElementById("NumOfPlayers").innerHTML = "No Servers Online";
+				}
 				
 	}
 
