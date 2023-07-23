@@ -11,6 +11,8 @@
 <script src="3.7.8_plyr.js"></script>
 <link rel="stylesheet" href="3.7.8_plyr.css" />
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<style>
 		
     .test1 {
@@ -70,6 +72,11 @@
 .column {
   flex: 50%;
   padding: 0px;
+}
+
+.columnmid {
+  flex: 50%;
+  padding: 2vw;
 }
 
 .column2 {
@@ -220,7 +227,8 @@
 	<div id="header">
 		 <!--<img src="images/ethanstudios.png" width="300" height="100"> -->
 		
-		<p class="titlecenter">Ethans Tank Game</p>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);width: 100%;font-size:5vw;line-height: 1em;">Ethans Tank Game</p>
+      
       
 
       <div style="clear:both"></div>
@@ -263,9 +271,9 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 			
 		</div>
 			
-			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">(When joining the game it will use around 30MB of download)</p> 
-			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">(The game requires a non https connection to connect to the game server, therefore the website must be http)</p> 
-			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">(Also sound does not work well for the website version, so it is recommended to keep it turned off)</p> 
+			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">(When joining the game it will use around 30MB of download)</p> 
+			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">(The game requires a non https connection to connect to the game server, therefore the website must be http)</p> 
+			<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">(Also sound does not work well for the website version, so it is recommended to keep it turned off)</p> 
 		<br>
 		<br>
 		<br>
@@ -320,7 +328,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 		<!--</div class="plyr plyr--full-ui plyr--video plyr--html5"> -->
 					
 
-			<video id="player" playsinline="" controls  data-poster="images/ui3/skid4.png" style="--plyr-color-main: #00cccc;">
+			<video id="player" playsinline="" controls clickToPlay="true" data-poster="images/ui3/skid4.png" style="--plyr-color-main: #00cccc;">
 				<source src="https://cdnuk1.ethanstockton.com/TankTrailer5HD-1080p.mp4" type="video/mp4" size="1080">
 				<!-- Captions are optional -->
 			</video>
@@ -329,10 +337,9 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 		
 		</div>
 		
-		<br>
-		<br>
-		<br>
-		<br>
+		
+		
+		
 		
 		<!--
 		<div class="titlecenter">
@@ -343,27 +350,33 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 			</a>
 		</div>
 		
-		-->
 		
-		<br>
-		<br>
+		
 		
 		<div class="titlecenter">
 			<img src="images/ui3/skid1.png" style="width:60%">
 			
-		</div>
+		</div>-->
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="titlecenter">
 			<img src="images/ui2.png" style="width:30%">
 			<div class="caption center2"><p class="titlecenter2">What Is It</p></div>
 		</div>
 		
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Ethan's Tank Game is a multiplayer tank game with 80's retro styling, It is a solo indie developed project</p> 
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">with a large collection of interesting maps and gamemodes to explore and play</p>
-		<br>
-		<br>
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">Ethan's Tank Game is a multiplayer tank game with 80's retro styling, It is a solo indie developed project</p> 
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">with a large collection of interesting maps and gamemodes to explore and play</p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:3vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<!--
 		<div class="titlecenter">
@@ -502,7 +515,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div id="NumOfPlayers" class="caption center2">Free For All</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Free for all, is a gamemode with no teams, every tank is on its own battling for victory.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Free for all, is a gamemode with no teams, every tank is on its own battling for victory.</p> 
 				</a>
 				
 			</div>
@@ -520,13 +533,16 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div id="NumOfPlayers" class="caption center2">Capture The Flag</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Capture the flag, 2 teams attempt to claim the others flag for points in the battle, with the team that captures the other teams flag the most being the winning team.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Capture the flag, 2 teams attempt to claim the others flag for points in the battle, with the team that captures the other teams flag the most being the winning team.</p> 
 				</a>
 			</div>
 		</div>
 		
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="row">
 			<div class="column2">
@@ -542,7 +558,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div id="NumOfPlayers" class="caption center2">Capture The Power</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Capture the power, (capture the points), where each team scores points based on the amount of power they have collected, the power points to be captured are positioned around the maps it is up to a team to capture and then defend their claimed points from other teams. The team also needs enough power for their dead players to respawn.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Capture the power, (capture the points), where each team scores points based on the amount of power they have collected, the power points to be captured are positioned around the maps it is up to a team to capture and then defend their claimed points from other teams. The team also needs enough power for their dead players to respawn.</p> 
 				</a>
 				
 			</div>
@@ -560,13 +576,16 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div id="NumOfPlayers" class="caption center2">Team Death Match</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Team DeathMatch, teams attempt to eliminate the other teams each round ,with 3 rounds each game the winning team is the one with the most rounds won over the other teams.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Team DeathMatch, teams attempt to eliminate the other teams each round ,with 3 rounds each game the winning team is the one with the most rounds won over the other teams.</p> 
 				</a>
 			</div>
 		</div>
 		
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="row">
 			<div class="column2">
@@ -582,7 +601,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div id="NumOfPlayers" class="caption center2">Respawn Wars</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Respawn Wars, (inspired by bedwars/eggwars), is overall similar to Capture the power, however it is more difficult as power must manually be collected and returned to the respawner,  in addition the tank shields do not work in the same way as they do in the rest of the game, in this gamemode the player gets to decide out of the power they have collected, how much they want to put into their own shields, or into the teams respawner.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Respawn Wars, (inspired by bedwars/eggwars), is overall similar to Capture the power, however it is more difficult as power must manually be collected and returned to the respawner,  in addition the tank shields do not work in the same way as they do in the rest of the game, in this gamemode the player gets to decide out of the power they have collected, how much they want to put into their own shields, or into the teams respawner.</p> 
 				</a>
 				
 			</div>
@@ -592,33 +611,38 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 			</div>
 		</div>
 		
-		
-		
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="titlecenter">
 			<img src="images/ui3.png" style="width:55%">
 			<div class="caption center2"><p class="titlecenter2">Tank Customisation</p></div></img>
 		</div>
 		
-		<br>
-		<br>
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">The Tanks have a number of different configurations to choose from.</p> 
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">One of the ways this is accomplished is through different levels of shield</p>
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">where no shield/or a low power shield will give the player the most speed and acceleration, but it will also take less damage to destroy the tank.</p>
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Where as a mid to high power shield will give the player the most shielding against damage at the expense of speed and acceleration.</p>
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">(when in the Respawn Wars GameMode the shield works differently)</p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">The Tanks have a number of different configurations to choose from.</p> 
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;"><u> empty space</u></p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">One of the ways this is accomplished is through different levels of shield.</p>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;"><u> empty space</u></p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Where no shield/or a low power shield will give the player the most speed and acceleration, but it will also take less damage to destroy the tank.</p>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;"><u> empty space</u></p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">Where as a mid to high power shield will give the player the most shielding against damage at the expense of speed and acceleration.</p>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1vw;line-height:0.1em;"><u> empty space</u></p>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">(when in the Respawn Wars GameMode the shield works differently)</p>
 		
 		<div class="row">
 			<div class="column">
-				<img src="images/ui3/shield off.png"  style="width:40%"></img>
+				<img src="images/ui3/shield off.png"  style="width:70%"></img>
 			</div>
 			<div class="column">
-				<img src="images/ui3/shield.png" style="width:40%"></img>
+				<img src="images/ui3/shield.png" style="width:70%"></img>
 			</div>
 		</div>
 		
@@ -626,13 +650,13 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 		
 		<br>
 		
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">Another customisable aspect is the tank weapon.</p>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1em;">Another customisable aspect is the tank weapon.</p>
 		
 		
 		<br>
 		
 		<div class="row">
-			<div class="column4">
+			<div class="columnmid">
 				<a>
 					
 					<div class="imageContainer">
@@ -645,11 +669,13 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div class="caption center2">Normal</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">A laser beam that upon hitting the target damages the tank.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">A laser beam that upon hitting the target damages the tank.</p> 
 				</a>
 				
 			</div>
-			<div class="column4">
+			<div class="columnmid">
+			
+			
 				
 				<a>
 					
@@ -663,10 +689,20 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div class="caption center2">Rapid</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">A faster reloading laser beam that operates the same as the Normal weapon  but has slightly less damage, although this is offset by the faster reload times.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">A faster reloading laser beam that operates the same as the Normal weapon  but has slightly less damage, although this is offset by the faster reload times.</p> 
 				</a>
 			</div>
-			<div class="column4">
+		</div>
+		
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:0.1vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
+		
+		<div class="row">
+			
+			<div class="columnmid">
 				
 				<a>
 					
@@ -680,10 +716,10 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div class="caption center2">Fire</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">A wide spread damage weapon, that damages the enemy tanks, but only works at close ranges.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">A wide spread damage weapon, that damages the enemy tanks, but only works at close ranges.</p> 
 				</a>
 			</div>
-			<div class="column4">
+			<div class="columnmid">
 				
 				<a>
 					
@@ -697,34 +733,31 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 						<div  class="caption center2">Freeze</div>
 					</div>
 					
-					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">A wide spread damage weapon, that not only damages the enemy tanks, but also slows them down for a temporary amount of time, at the cost of slightly reduced damage, only works at close ranges.</p> 
+					<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height: 1.5em;">A wide spread damage weapon, that not only damages the enemy tanks, but also slows them down for a temporary amount of time, at the cost of slightly reduced damage, only works at close ranges.</p> 
 				</a>
 			</div>
+
 		</div>
 
 
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:3vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
-
 		
-		
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 		
 		<div class="titlecenter">
 			<img src="images/ui2.png" style="width:60%">
 			<div class="caption center2"><p class="titlecenter">MAPS</p></div>
 		</div>
 		
-		<br>
 		
-		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">There are 5 maps available to play on the demo</p>
 		
-			<br>	
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1.5vw;line-height:0.6em;">There are 5 maps available to play on the demo</p>
+		
+		
 		
 		<div class="row">
 			<div class="column2">
@@ -762,9 +795,11 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 		</div>
 		
 		
-		<br>
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1.5vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="row">
 			<div class="column2">
@@ -801,9 +836,11 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 			</div>
 		</div>
 		
-		<br>
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:1.5vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
 		
 		<div class="row">
 			<div class="column2">
@@ -828,9 +865,12 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
 			</div>
 		</div>
 		
-		<br>
-		<br>
-		<br>
+		<p style="font-family:'acostaregular';color:rgba(0, 255, 255, 0);text-align:center;width:100%;font-size:3vw;line-height:0.1em;">
+			<u>
+				 empty space
+			</u>
+		</p>
+		
 		<!--
 		<br>
 		<br>
@@ -880,11 +920,10 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
       
     </div>   
 
-      <p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center">All Rights Reserved (c) Ethan Stockton 2017 - 2023</p>
+      <p style="font-family:'acostaregular';color:rgba(0, 255, 255, 1);text-align:center;width:100%;font-size:1vw;line-height:0.2em;">All Rights Reserved (c) Ethan Stockton 2017 - 2023</p>
 
-    </div>    
-
-
+    </div>  
+	
     
     <!--
   THIS CODE IS PROPERTY OF ETHAN STOCKTON
@@ -904,7 +943,7 @@ style= "background-color:rgba(255, 255, 255, 0.0); ">
   'mute', // Toggle mute
   'volume', // Volume control
   
-  'settings', // Settings menu
+  //'settings', // Settings menu
   
   
   
